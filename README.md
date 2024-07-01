@@ -31,4 +31,4 @@ Don't move cursor on startup - Yeah, it does that. When windowed it has no buisn
 
 # PRACTICE TOOLS:
 These can be installed and uninstalled from your EXE. All that's changed are memory address references.
-What this does is make some internal variables in the game visible to the player, such as your boat's speed and the wrong way turnaround timer. Having these things on hand is very useful for practicing speedruns, however they are intended for practice only. Which is where the uninstallation comes in to revert what changes were made.
+What this does is make some internal variables in the game visible to the player, such as your boat's speed and the wrong way turnaround timer. Having these things on hand is very useful for practicing speedruns, however they are intended for practice only. Which is where the uninstallation comes in to easily revert what changes were made.
