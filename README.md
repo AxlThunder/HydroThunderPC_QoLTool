@@ -4,7 +4,7 @@ A program written in Game Maker 8.2, which was made to address issues in the PC 
 
 It is designed primarily for the Eurocom 2001 release(the one that's less than 70mb and has like 3-4 files). As of the current verison, it can detect the Midway Arcade Treasures Deluxe Edition version, but it can only apply the Throttle Fix to it.
 
-# NOTE: This tool takes the EXE modification approach to patching. There is currently no injection based option, but I plan to make one available in the future. It's simply me doing my best with what I know.
+**NOTE: This tool takes the EXE modification approach to patching. There is currently no injection based option, but I plan to make one available in the future. It's simply me doing my best with what I know.**
 
 You can choose which patches you want, or hit "Apply all" on the relevant pages. A copy of your EXE is made automatically before any patching is done.
 
