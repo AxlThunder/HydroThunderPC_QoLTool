@@ -25,7 +25,7 @@ You can choose which patches you want, or hit "Apply all" on the relevant pages.
 # EXTRA PATCHES:
 **Don't change mixer volume** - If the game detects that it's volume in the mixer isn't what it expects, it changes it to what it expects. This port seems to rely on that slider for it's volume, so this was understandable back in 2001. But nowadays, those who may want to set a finer volume adjustment than what the game normally can do can't. But with this patch, you can. This doesn't affect the internal volume setting itself, and it'll currently only last until you change that in-game volume setting, or restart the game.
 
-**Allow 1% volume** - Just like it says on the tin. This is a loud game, so I felt this would be useful to some. The volume adjustment slider code is way more intricate than it ever needs to be, so this is the best I can do for now.
+**Allow 1% volume** - Just like it says on the tin. This is a loud game, so I felt this would be useful to some.
 
 **Don't move cursor on startup** - Yeah, it does that. When windowed it has no buisness messing with the mouse, so this disables that.
 
