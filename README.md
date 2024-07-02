@@ -27,7 +27,7 @@ You can choose which patches you want, or hit "Apply all" on the relevant pages.
 
 **Allow 1% volume** - Just like it says on the tin. This is a loud game, so I felt this would be useful to some.
 
-**Don't move cursor on startup** - Yeah, it does that. When windowed it has no buisness messing with the mouse, so this disables that.
+**Don't move cursor on startup**
 
 # PRACTICE TOOLS:
 These can be installed and uninstalled from your EXE. All that's changed are memory address references.
