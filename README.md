@@ -6,7 +6,7 @@ It is designed primarily for the Eurocom 2001 release(the one that's less than 7
 
 Hydro Thunder community Discord server, as this is where testing is done for future public builds, and where i post about what i'm working on: https://discord.gg/yxKT6EP
 
-**NOTE: This tool takes the EXE modification approach to patching. There is currently no injection based option, but I plan to make one available in the future(if i can motivate myself enough to learn another language lol). It's simply me doing my best with what I know.**
+**NOTE: This tool takes the EXE modification approach to patching. There is currently no injection based option, but I plan to make one available in the future(if i can motivate myself enough to learn another language lol, but don't let that stop you from creating one of your own if you wish to). It's simply me doing my best with what I know.**
 
 You can choose which patches you want, or hit "Apply all" on the relevant pages. A copy of your EXE is made automatically before any patching is done.
 
