@@ -18,7 +18,7 @@ switch screen
  patchkind[1]=2
  patchkind[2]=0
  patchkind[3]=0
- patchkind[4]=0
+ patchkind[4]=5
  //patchkind[5]=0
  patchkind[7]=2
  patchkind[9]=0
@@ -27,7 +27,7 @@ switch screen
  patchstart[1]=$72C37
  patchstart[2]=$7DD00
  patchstart[3]=$7DC08
- //patchstart[4]=$71A4B
+ patchstart[4]=$7E155
  //patchstart[5]=$6D178
  patchstart[7]=$7E09B
  patchstart[9]=$7DC14
@@ -36,7 +36,7 @@ switch screen
  patchend[1]=$7F
  patchend[2]=$7DD04
  patchend[3]=$7DC0C
- //patchend[4]=$71A55
+ patchend[4]=$71A55
  //patchend[5]=$6D18F
  patchend[7]=$01
  patchend[9]=$7DC18
@@ -45,7 +45,7 @@ switch screen
  make_button(1,"Controller fix")
  make_button(2,"Improve window stability")
  make_button(3,"Keep alive when unfocused")
- //make_button(4,"No sleep at splash screen")
+ make_button(4,"Pause race with controller")
  //make_button(5,"Don't move cursor on startup")
  make_button(7,"Disable CD check")
  make_button(8,"Apply all")
