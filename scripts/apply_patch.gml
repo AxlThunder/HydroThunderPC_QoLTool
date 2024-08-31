@@ -65,13 +65,22 @@ switch exetarget
   file_bin_seek(read,$33E8B)
   file_bin_write_byte(read,$54)
   break
-  
+
   case 5:
   var cont, cont2;
   cont=get_string
   ("Enter the exact button to be used for pausing a race.
   (to find this, open the controller in the control panel through devices and printers)
   ","")
+  if cont=""
+   {
+   exit
+   }
+  cont2=string_letters(cont)
+  if string_length(cont2)>0
+   {
+   exit
+   }
   file_bin_write_byte(read,$B9)
   file_bin_write_byte(read,real(cont))
   file_bin_write_byte(read,$00)
@@ -83,7 +92,7 @@ switch exetarget
   file_bin_write_byte(read,$FF)
   file_bin_write_byte(read,$FF)
   break
-  
+
   }
  break
 
