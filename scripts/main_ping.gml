@@ -24,6 +24,7 @@ with obj_main
    apply_patch(1)
    apply_patch(2)
    apply_patch(3)
+   apply_patch(4)
    apply_patch(7)
    apply_patch(9)
    }
