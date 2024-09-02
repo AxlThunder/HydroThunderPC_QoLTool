@@ -69,8 +69,9 @@ switch exetarget
   case 5:
   var cont, cont2, iterations, hex1, hex2;
   cont=get_string
-  ("Enter the exact button to be used for pausing a race.
-  (to find this, open the controller in the control panel through devices and printers)
+  (
+  "Enter the exact button to be used for pausing a race.
+  To find this, open the controller properties in Windows' Game Controller Settings. This is usually reached from Devices and Printers.
   ","")
   if cont=""
    {
@@ -83,12 +84,12 @@ switch exetarget
    }
   iterations=real(cont)
   cont2=1
-  
+
   for(i=1; i<iterations; i+=1)
    {
    cont2=(cont2*2)
    }
-  
+
   hex1=cont2
   hex2=0
   if hex1>=256
@@ -100,7 +101,7 @@ switch exetarget
     }
    until hex1<256
    }
-  
+
   file_bin_write_byte(read,$B9)
   file_bin_write_byte(read,hex1)
   file_bin_write_byte(read,hex2)
