@@ -67,7 +67,7 @@ switch exetarget
   break
 
   case 5:
-  var cont, cont2;
+  var cont, cont2, iterations, hex1, hex2;
   cont=get_string
   ("Enter the exact button to be used for pausing a race.
   (to find this, open the controller in the control panel through devices and printers)
@@ -81,9 +81,29 @@ switch exetarget
    {
    exit
    }
+  iterations=real(cont)
+  cont2=1
+  
+  for(i=1; i<iterations; i+=1)
+   {
+   cont2=(cont2*2)
+   }
+  
+  hex1=cont2
+  hex2=0
+  if hex1>=256
+   {
+   do
+    {
+    hex2+=1
+    hex1-=256
+    }
+   until hex1<256
+   }
+  
   file_bin_write_byte(read,$B9)
-  file_bin_write_byte(read,real(cont))
-  file_bin_write_byte(read,$00)
+  file_bin_write_byte(read,hex1)
+  file_bin_write_byte(read,hex2)
   file_bin_write_byte(read,$00)
   file_bin_write_byte(read,$00)
   file_bin_write_byte(read,$E8)
@@ -91,6 +111,8 @@ switch exetarget
   file_bin_write_byte(read,$55)
   file_bin_write_byte(read,$FF)
   file_bin_write_byte(read,$FF)
+  file_bin_write_byte(read,$85)
+  file_bin_write_byte(read,$C8)
   break
 
   }
