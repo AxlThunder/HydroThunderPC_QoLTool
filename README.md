@@ -12,6 +12,8 @@ Hydro Thunder community Discord server, as this is where testing is done for fut
 
 You can choose which patches you want, or hit "Apply all" on the relevant pages. A copy of your EXE is made automatically before any patching is done.
 
+A video of the tool in action: https://www.youtube.com/watch?v=VeKZQSPKi10
+
 # What each patch does in more detail:
 **Throttle fix** - When no throttle input is given, it will sit at 25.9% on the gas, meaning that the boat will always have throttle input even when it shouldn't. This is because the game intentionally takes the input from your controls, subtracts 35% from it, and multiplies that result by 0.7407407. The result of that is then written to the value which the game depends on for throttle input. What that means, is that the throttle's "pivot" is not perfectly centered like it should be, being shifted back a bit. This is likely a leftover from the original arcade, where the same pivot shift is present on the throttle controller. This off-center pivot messes with a super start trick where the throttle has to sit perfectly neutral when not using it, to pop off the starting line without jumping, saving a bit of time. A workaround existed, but only with the analog throttle by holding it about 30-60% down to put it at neutral. Having to use analog inputs puts keyboard players at an unecessary disadvantage for speedrun competition. This patch nops out that unecessary math, correcting the throttle pivot to be centered as it should be.
 
