@@ -2,7 +2,7 @@
 
 A program written in Game Maker 8.2, which was made to address issues in the PC port of Hydro Thunder, as well as introduce some quality of life improvements.
 
-It is designed primarily for the Eurocom 2001 release(the one that's less than 70mb and has like 3-4 files). As of the current verison, it can detect the Midway Arcade Treasures Deluxe Edition version(only the DRM-free european release EXE is tested as detectable), but it can only apply the Throttle Fix to it.
+It is designed primarily for the Eurocom 2001 release(the one that's less than 70mb and has like 3-4 files). As of the current verison, it can detect the Midway Arcade Treasures Deluxe Edition version(only the European release EXE is tested as detectable), but it can only apply the Throttle Fix to it.
 
 Hydro Thunder community Discord server, as this is where testing is done for future stable builds, and where i post about what i'm working on: https://discord.gg/yxKT6EP
 
